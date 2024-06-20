@@ -3,30 +3,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
 }
 
-.main-container{
-    display:grid;
-    height:100vh;
-    width:100vw;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+.main-container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
-.sidebar{
+/* css for the side bar */
+.sidebar {
     grid-column: 1/2;
     grid-row: 1/6;
-    background-color: blue;
+    background-color: #0ea5e9;
+    display: grid;
+    font-weight: bold;
+    color: white;
+    grid-template-rows: repeat(15,50px);
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
-.header{
+/* css for the dashboard section */
+.sidebar>.top-cell{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 15px; 
+    grid-row: span 2;
+    align-self:start;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sidebar>div>img {
+    height: 30px;
+    width: auto;
+}
+
+.sidebar>.top-cell> img{
+    height:45px;
+    width:auto;
+}
+/* css from home onwards */
+
+.sidebar> .cell{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 15px; 
+}
+/* css for the header */
+
+.header {
     grid-column: 2/6;
     grid-row: 1/2;
     background-color: white;
 }
 
-.main-content{
+.main-content {
     grid-column: 2/6;
-    grid-row:2/6;
+    grid-row: 2/6;
     background-color: grey;
 }
