@@ -160,7 +160,7 @@
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    max-height: 100%;
+    padding: 30px 20px 30px 20px;
 }
 
 .projects {
@@ -178,7 +178,6 @@
 }
 
 .news {
-    margin-top: 30px;
     margin-left: 15px;
     font-weight: bold;
     font-size: larger;
@@ -214,7 +213,6 @@
     font-size: medium;
 }
 
-/* 
 .trending-container {
     margin-top: 10px;
     padding: 20px;
@@ -226,10 +224,5 @@
     border: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
-
-.trending-container img{
-    width:30px;
-    height:auto;
-} */
