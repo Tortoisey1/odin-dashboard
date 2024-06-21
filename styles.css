@@ -51,9 +51,17 @@
 
 .sidebar> .cell{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 40px 1fr;
     gap: 15px; 
+    align-self:start;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 5px;
 }
+#community-cell{
+    grid-row: span 2;
+}
+
 /* css for the header */
 
 .header {
