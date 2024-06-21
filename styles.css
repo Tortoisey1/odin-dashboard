@@ -173,14 +173,13 @@
 .news-column {
     grid-column: 8/11;
     display: grid;
-    height:100vw;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .news {
     margin-left: 15px;
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
 }
 
 .announcement-container {
@@ -226,3 +225,4 @@
     flex-direction: column;
     justify-content: center;
 }
+
