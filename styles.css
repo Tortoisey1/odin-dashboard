@@ -160,6 +160,7 @@
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    padding: 30px 20px 30px 20px;
 }
 
 .projects {
@@ -176,7 +177,6 @@
 }
 
 .news {
-    margin-top: 30px;
     margin-left: 15px;
     font-weight: bold;
     font-size: large;
@@ -210,4 +210,18 @@
 .para>p>strong {
     font-weight: bold;
     font-size: medium;
+}
+
+.trending-container {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
